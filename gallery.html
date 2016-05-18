@@ -17,7 +17,9 @@
     <!-- Logo -->
     <link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,700' rel='stylesheet' type='text/css'>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
+    <!-- Featherlight -->
+<!--    <link href="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />-->
 
     <!-- CSS -->
     <!-- Normalize CSS -->
@@ -257,22 +259,9 @@
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!--        <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>-->
         <script>
             window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-        </script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('.services-selector a').on('click', function(event) {
-                    event.preventDefault();
-                    $('.grid-container').fadeOut(500, function() {
-                        $('#' + gridID).fadeIn(500);
-                    });
-                    var gridID = $(this).attr("data-id");
-
-                    //                    $('.grid-nav li a').removeClass("active");
-                    //                    $(this).addClass("active");
-                });
-            });
         </script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
